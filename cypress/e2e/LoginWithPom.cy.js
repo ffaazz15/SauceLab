@@ -11,7 +11,9 @@ describe('POM', () => {
         ln.setPassword(fdata.password);
         ln.clickLogin();
         ln.verifySecondPage()
+        
     })
+  
 
 
 }); 
