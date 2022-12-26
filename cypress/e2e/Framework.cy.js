@@ -26,11 +26,7 @@ fw.setUsername(data.name)
     //cy.get(':nth-child(2) > .nav-link').click()
     fw.VerifySecondPage()
 
-    fw.SelectPhoneTitle().each(($el1,index,$list)=>{
-        if($el1.text().includes(data.phone)){
-            fw.AddToCart().eq(index).click()
-        }
-    })
+   
 });
 
 })
